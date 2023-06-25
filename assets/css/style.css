@@ -1,30 +1,30 @@
-* {
+* {  /*Global sizing, padding and morgin reset*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body {  /* assigns color to the body */
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /*  sets padding, fonts and colors for header*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*changes display type and font size*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo { /*assigns color to h1 in seo*/
     color: #d9dcd6;
 }
 
-.header nav {
+.header nav { /*adjust the header nav*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
